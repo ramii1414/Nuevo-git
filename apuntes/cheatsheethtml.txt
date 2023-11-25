@@ -88,3 +88,22 @@ COMO PONER IMAGENES
     Es posible que veamos al final de una etiqueta de imagen / al final
     esto ya no es necesario ponerlo ya que html5 ya sabe donde acaban las etiquetas
     de imagen
+
+COMO PONER LA RUTA DE UNA IMAGEN
+
+    Simplemente le indicamos la carpeta en la que esta
+    
+    Para la imagen Hola.jpg en la carpeta img
+        <img src="img/Hola.jpg" alt="pone ola">
+
+CSS
+
+    COLOR EN EL TEXTO
+        Podemos poner color a un texto o titulo añadiendo a la etiqueta
+        <h1></h1> o <p></p> añadiento dentro de estas:
+
+            style = "color: X;"
+
+        Por lo tanto quedaria:
+
+            <h1 style="color: red;">Color rojo</h1>
