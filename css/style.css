@@ -1,6 +1,7 @@
 body {
-    background-color: #000;
+    background-color: #B9B3B7;
     color: #fff;
+    font-size: 30px;
 }
 
 p{
@@ -9,5 +10,5 @@ p{
 
 h1{
     font-size: 70px;
-    color:pink;
+    color:rgb(203, 109, 125);
 }
