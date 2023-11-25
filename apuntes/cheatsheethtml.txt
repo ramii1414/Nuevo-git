@@ -1,7 +1,7 @@
 Al inicio del documento hay que poner:
     <!DOCTYPE html>
 
-Despues para deccirle al naegador que es un html:
+Despues para decirle al naegador que es un html:
     <html>
     </html>
 
@@ -128,3 +128,36 @@ CSS
 
             (Esto hara que el fondo sea negro y todo el texto sea blanco)
     *Nota* Tambien valen los atributos font-size, font-family y demas
+
+COMO UTILIZAR EL ARCHIVO CSS EN LA PAGINA html
+
+    Para ello crearemos una nueva etiqueta "link" en head
+
+        *Dentro de head debajo de title*
+
+            <link rel="lo que vamos linkear" href="ruta del archivo">
+        
+        Por ejemplo para linkear el archivo stilo.css a el html pondriamos:
+
+            <link rel="Stylesheet" href="carpetacss/archivocss">
+
+DENTRO DEL ARCHIVO CSS
+
+    Lo que haremos en el archivo css es poner el estilo de cada parte del html
+    en vez de tener que escribirlo junto a lo demas.
+
+    Para por ejemplo cambiar el fondo negro y la letra blanca tendriamos que:
+
+        primero seleccionar el "body" poniendo sin mas body y despues abrir {}
+
+            body {
+                background-color: #000;
+                color: #fff;
+            }
+    HAY QUE PONER {} Y ; al final de cada atributo
+
+    Se puede hacer lo mismo para los parrafos:
+
+        p{
+            color:#FFCC00
+        }
