@@ -67,3 +67,24 @@ LINK A OTRA PAGINA
     Cuando nos referimos a otra pagina en verdad nos referimos a otro archivo html
     por lo tanto debemos tener ambos archivos en la misma carpeta por lo que tan solo
     con poner el nombre del archivo dentro de "href" bastaria
+
+COMO PONER IMAGENES
+
+    Utilizar la etiqueta:
+
+        <img src="link de la imagen">
+
+    Para poner una imagen en loal esta tiene que estar en la misma carpeta
+
+        <img src="nombre de la imagen">
+
+        despues del link de la imagen hay que poner otro atributo:
+            alt="descripcion de la imagen"
+
+    Una etiqueta de imagen completa quedaria asi
+
+        <img src="link" alt="una imagen">
+    
+    Es posible que veamos al final de una etiqueta de imagen / al final
+    esto ya no es necesario ponerlo ya que html5 ya sabe donde acaban las etiquetas
+    de imagen
