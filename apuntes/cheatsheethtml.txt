@@ -107,3 +107,24 @@ CSS
         Por lo tanto quedaria:
 
             <h1 style="color: red;">Color rojo</h1>
+
+    TAMAÑO DE LETRA
+
+        font-size: Xpx;
+    
+    TIPOGRAFIA
+
+        font-family: X;
+
+    COLOR DE FONDO
+
+        style="background-color: #XXX000;"
+
+    *Nota:* Si dentro de la etiqueta body pongo un atributo "color", todo el 
+    texto que haya debajo de este se volvera de ese color asi como los demas
+    atributos.
+
+        <body>style="background-color:#000; color:#fff;"</body>
+
+            (Esto hara que el fondo sea negro y todo el texto sea blanco)
+    *Nota* Tambien valen los atributos font-size, font-family y demas
