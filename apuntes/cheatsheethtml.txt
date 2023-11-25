@@ -118,6 +118,10 @@ CSS
 
     COLOR DE FONDO
 
+        *Nota:* Al poner un color en la etiqueta si nos sale el "cuadradito"
+        con el color que hemos puesto, podemos hacer clic encima de este para 
+        cambiar el color manualmente, lo unico que se pondra como RGB (X,X,X)
+
         style="background-color: #XXX000;"
 
     *Nota:* Si dentro de la etiqueta body pongo un atributo "color", todo el 
